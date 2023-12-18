@@ -96,13 +96,16 @@ OUTPUT_PWD = $$OUT_PWD
 MY_PWD_WIN = $$replace(MY_PWD, /, \\)
 OUTPUT_PWD_WIN = $$replace(OUTPUT_PWD, /, \\)
 
-QMAKE_PRE_LINK = xcopy $$MY_PWD_WIN\3rdparty\lib\tinyxml2.dll $$OUTPUT_PWD_WIN\debug /y
+QMAKE_PRE_LINK = xcopy $$MY_PWD_WIN\3rdparty\lib\tinyxml2.dll $$OUTPUT_PWD_WIN\release /y
 
 # 复制db文件夹到编译后项目中
 MY_DB_PWD = $$MY_PWD_WIN\database.db
 OUT_DB_PWD = $$OUTPUT_PWD_WIN\
 
 copy_db = $$system("echo d| xcopy $${MY_DB_PWD} $${OUT_DB_PWD}")
+
+
+RC_ICONS += icon.ico
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
