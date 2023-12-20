@@ -1,4 +1,4 @@
-# This is CLAN!:joy:
+# This is CLAN!
 CLAN is a desktop software written in C++ for automated cardiolipin characterization.
 
 ## Functions
