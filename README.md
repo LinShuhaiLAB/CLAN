@@ -9,7 +9,7 @@ CLAN is a desktop software written in C++ for automated cardiolipin characteriza
 ---
 
 ## Download
-[CLAN v1.0.0](https://github.com/LinShuhaiLAB/CLAN/releases/download/v1.0.0/)
+[CLAN v1.0.0](https://github.com/LinShuhaiLAB/CLAN/releases/download/v1.0.0/CLAN.rar)
 
 ---
 
@@ -26,4 +26,5 @@ Provide **mzML** files.
 | CL 56:0  |  11.0   | 14:0/14:0/14:0/14:0 |  **FALSE**  |
 | CL 74:2  |  13.0   |         NA          |  **TRUE**   |
 |   ...    |   ...   |         ...         |   ...   |
+
 
